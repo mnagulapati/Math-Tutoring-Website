@@ -234,7 +234,7 @@
       `Hello Mahalakshmi,\n\nMy name is ${name}.\n\nStudent's course/level: ${course}\n\nWhat we need help with:\n${message}\n\nThank you!`
     );
     document.getElementById("formNote").textContent = "Opening your email app with the inquiry prepared…";
-    window.location.href = `mailto:mnagulapati@scu.edu?subject=${subject}&body=${body}`;
+    window.open(`mailto:mnagulapati@scu.edu?subject=${subject}&body=${body}`, '_blank')
   });
 </script>
 </body>
